@@ -49,7 +49,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="#ContactMe" class="nav-link active">Contact Me</a>
+                        <a href="#contact" class="nav-link active">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -78,7 +78,7 @@
             <div class="col-md-5 text-center mt-3">
                 <img class="img-fluid" src="./assets/9293209.png" alt="work-experience">
             </div>
-            <div class="col-md-5 text-center text-md-start">
+            <div class="col-md-5 text-center text-md-start m-5">
                 <h1>
                     <div class="display-2 text-dark">Professional Experience</div>
                     <div class="display-5 text-muted fs-3">IT Systems Assistant @ Ontario Public Services</div>
@@ -137,7 +137,38 @@
     </section>
 
     <!--get in touch/contact me (form)-->
-
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center text-light">
+                <h2>Get In <span id=yellow>Touch</span></h2>
+                <p class="lead"><span id="red">Questions</span> to ask? Fill out this form to <span id="blue">contact me</span>.</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form>
+                        <label for="email" class="form-label text-light">Email Address: </label>
+                        <input type="email" class="form-control" id="email" placeholder="e.g. jameswest@gmail.com">
+                        <label for="name" class="form-label text-light mt-3">Name:</label>
+                        <input type="text" id="name" class="form-control" placeholder="e.g. James West">
+                        <label for="subject" class="form-label text-light mt-3">What is your question about?</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>--</option>
+                            <option value="suggest">Suggestion for the website</option>
+                            <option value="elaborate">Elaboration on a skill or work experience</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div class="form-floating">
+                            <textarea id="query" class="form-control mt-3" style="height:140px"></textarea>
+                            <label for="query">Please Explain:</label>
+                        </div>
+                        <div class="mb-4 mt-3 text-center">
+                            <button class="btn btn-secondary" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 

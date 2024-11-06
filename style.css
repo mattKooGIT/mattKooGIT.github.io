@@ -7,3 +7,15 @@ body{
     align-items: center;
     justify-content:flex-end;
 }
+
+#yellow {
+    color: #fcbe24;
+}
+
+#blue {
+    color: #5395CB;
+}
+
+#red {
+    color: #B05B65;
+}
