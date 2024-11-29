@@ -37,6 +37,7 @@ body{
     color: #B05B65;
 }
 
+/* Loading Button is hidden on default */
 #loadingButton{
     display: none;
 }
