@@ -1,5 +1,6 @@
 body{
     background-color: #15222e;
+    padding-top: 70px;
 }
 
 .contact-info{
@@ -17,5 +18,21 @@ body{
 }
 
 #red {
+    color: #B05B65;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.valid-feedback{
     color: #B05B65;
 }
