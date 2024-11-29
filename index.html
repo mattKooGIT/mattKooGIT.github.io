@@ -179,29 +179,31 @@
                 <div class="col-lg-6">
                     <form id="contactForm">
                         <label for="email" class="form-label text-light">Email Address: </label>
-                        <input type="email" class="form-control" id="email" placeholder="e.g. jameswest@gmail.com">
+                        <input type="email" class="form-control" id="email" placeholder="e.g. jameswest@gmail.com" required>
+
                         <label for="name" class="form-label text-light mt-3">Name:</label>
-                        <input type="text" id="name" class="form-control" placeholder="e.g. James West">
+                        <input type="text" id="name" class="form-control" placeholder="e.g. James West" required>
+                        
                         <label for="subject" class="form-label text-light mt-3">What is your question about?</label>
-                        <select class="form-select" aria-label="Default select example">
+                        <select class="form-select" aria-label="Default select example" required>
                             <option selected>--</option>
                             <option value="suggest">Suggestion for the website</option>
                             <option value="elaborate">Elaboration on a skill or work experience</option>
                             <option value="other">Other</option>
                         </select>
+
                         <div class="form-floating">
-                            <textarea id="query" class="form-control mt-3" style="height:140px"></textarea>
+                            <textarea id="query" class="form-control mt-3" style="height:140px" required></textarea>
                             <label for="query">Please Explain:</label>
                         </div>
+                        <div class="mb-4 mt-3 text-center">
+                            <button class="btn btn-secondary" type="submit">Submit</button>
+                        </div>
                     </form>
-                    <div class="mb-4 mt-3 text-center">
-                        <button class="btn btn-secondary" type="submit">Submit</button>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <script src="script.js"></script>
 </body>
 
 </html>
