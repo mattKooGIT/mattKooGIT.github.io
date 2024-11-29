@@ -36,3 +36,23 @@ body{
 .valid-feedback{
     color: #B05B65;
 }
+
+#loadingButton{
+    display: none;
+}
+
+/* Style for the disabled button (Submit Button) */
+button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Show the loading spinner when active */
+.show-loading #loadingButton {
+    display: inline-block;
+}
+
+/* Hide submit button when loading */
+.show-loading #submitButton {
+    display: none;
+}

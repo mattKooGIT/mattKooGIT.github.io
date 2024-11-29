@@ -196,14 +196,21 @@
                             <textarea id="query" class="form-control mt-3" style="height:140px" required></textarea>
                             <label for="query">Please Explain:</label>
                         </div>
+                        <div class="text-center mt-3">
+                            <button id="loadingButton" class="btn btn-secondary loading-btn" disabled>
+                                <span class="spinner-grow spinner-grow-sm"></span>
+                                Loading..
+                            </button>
+                        </div>
                         <div class="mb-4 mt-3 text-center">
-                            <button class="btn btn-secondary" type="submit">Submit</button>
+                            <button id="submitButton" onclick="submission()" class="btn btn-secondary" type="submit">Submit</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
