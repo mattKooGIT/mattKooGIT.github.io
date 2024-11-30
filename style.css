@@ -57,3 +57,7 @@ button[disabled] {
 .show-loading #submitButton {
     display: none;
 }
+
+#tpon-img{
+    border-radius: 40px;
+}
